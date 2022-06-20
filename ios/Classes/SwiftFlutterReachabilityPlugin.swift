@@ -94,7 +94,7 @@ extension SwiftFlutterReachabilityPlugin: FlutterStreamHandler {
                 if [CTRadioAccessTechnologyLTE].contains(access) {
                     return NetworkStatus.moblie4G.value
                 }
-                if #available(iOS 14.0, *), [CTRadioAccessTechnologyNRNSA,
+                if #available(iOS 14.1, *), [CTRadioAccessTechnologyNRNSA,
                                              CTRadioAccessTechnologyNR].contains(access) {
                     return NetworkStatus.moblie5G.value
                 }

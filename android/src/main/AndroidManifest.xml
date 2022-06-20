@@ -2,5 +2,5 @@
   package="com.example.flutter_reachability">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
 </manifest>
