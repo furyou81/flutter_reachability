@@ -85,7 +85,6 @@ private  class NetworkBroadcastReceiver(val events: EventChannel.EventSink?,val 
   @RequiresApi(Build.VERSION_CODES.N)
   override fun onReceive(p0: Context?, p1: Intent?) {
     print("网络发生变化")
-    Log.d("aaa","cesdddddddfslfsjfssfjdslkfjldsfjls")
     events?.success(getNetworkState(connectivityManager,context));
   }
 }
